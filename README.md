@@ -30,3 +30,23 @@ The query successfully processed all transaction rows and isolated the following
 
 ## 📊 Stage 2: Frontend Excel Automated Tracking Mask
 The aggregate datasets were exported directly into our spreadsheet tracking sheet (`corporate_audit_model.xlsx`). From there, a dynamic logic mask was deployed using conditional scale profiles to flag compliance anomalies based on systemic monetary exposure limits automatically.
+
+## 🎯 Core Project Questions & Objectives
+
+Any user or recruiter reviewing this repository can use the following benchmark tasks to understand the complete analytical scope of this audit:
+
+### Task 1: Relational Architecture Mapping
+- **Objective:** Investigate individual entity directories (`Employees`, `Orders`, `OrderDetails`, `Products`) to isolate where critical transactional ledger fields are housed.
+
+### Task 2: Multi-Table Joining Operations
+- **Objective:** Construct a multi-stage sequential `INNER JOIN` framework to bridge staff logs to separate line-item volume networks without dropping transaction balances.
+
+### Task 3: Financial Metric Matrix Aggregation
+- **Objective:** Implement advanced group-by (`GROUP BY`) math rules to compress multiple line-item rows into a unified order-level ledger, evaluating total gross revenues per order using aggregate multiplication logic:  
+  `SUM(Quantity * Price)`
+
+### Task 4: Systemic Exception Filtering
+- **Objective:** Deploy a post-aggregation `HAVING` statement paired with explicit array logic (`IN`) to filter out low-value transactions and isolate specific high-value ledger operations.
+
+### Task 5: Frontend Compliance Automation
+- **Objective:** Export the aggregated results into a live spreadsheet backend. Utilize dual-tier logic functions (`IF` masks) and automated conditional color gradient configurations to build a functional executive monitoring heatmap.
