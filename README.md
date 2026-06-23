@@ -50,3 +50,19 @@ Any user or recruiter reviewing this repository can use the following benchmark 
 
 ### Task 5: Frontend Compliance Automation
 - **Objective:** Export the aggregated results into a live spreadsheet backend. Utilize dual-tier logic functions (`IF` masks) and automated conditional color gradient configurations to build a functional executive monitoring heatmap.
+
+- ## 🌐 Original Dataset & Environment Replication
+
+The backend database for this pipeline runs on the standard **Northwind Sample Database**, an industry-recognized relational schema mapping global enterprise transaction logs.
+
+### 📥 Where to Access the Raw Data
+Because this dataset is fully open-source and standardized, any reviewer can instantly explore the live tables, column fields, and records without manually importing independent tables:
+- **Interactive Sandbox:** [W3Schools SQL Tryit Editor Sandbox](https://www.w3schools.com/sql/trysql.asp?filename=trysql_select_all)
+- **Included Tables Analyzed:** - `Employees` (Staff profile metadata)
+  - `Orders` (Unique master transaction logs)
+  - `OrderDetails` (Granular line-item itemization grids)
+  - `Products` (Inventory catalog unit values)
+  - `Customers` & `Shippers` (Logistics directory tables)
+
+### 🗺️ Database Table Schema Map
+To replicate or run the scripts provided in this repository (`aggregate_analysis.sql`), execute them directly against the web sandboxes above or plug the unified Northwind relational schema parameters into your local SQL Server instance.
